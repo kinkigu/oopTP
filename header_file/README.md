@@ -17,7 +17,7 @@
     * **bool MakeFile(std::string::filename)** : filename으로 특정한 값을 받지 않으면 defaultFileName으로 저장되는 값을 제목으로 하는 파일들의 매개해주는 파일을 생성
     * **bool ChangeDefaultFileName(std::string input_default)** : data를 저장하는 경로에 default_file_name.txt이라는 파일을 읽어와 파일 이름을 읽어내어 그 안에 저장된 값을 변경한다. (파일을 저장할 때, default로 이름을 정해주는 함수는 default값을 읽어와 그 값을 토대로 정하는 방식은 어떨까....)
     
-* ***public Tempate***
+* ***public Template***
     * **ChangeDefaultRoute()** : 굳이 템플릿을 안 써도 되지만, 교수님이 배운 내용 쓰면 점수 더 주실까봐 쓰는 함수; data를 저장하는 경로에 default_path.txt라는 파일이 있는데, 이를 읽어내어 그 안에 저장된 값을 변경한다. path에서 탐색이 불가능하다면, false 반환.
 
 2020.11.18 23:51 김진휘
