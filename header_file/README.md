@@ -1,6 +1,7 @@
 # Add Header Files Here
 
 ## MemoList
+> 최종 수정 : 2020.11.18 23:56 김진휘
 * ***private 변수***  
     * **std::vector<std::string> wholePath** : 파일당 전체 경로  
     * **std::vector<std::string> fileList**  :파일들의 경로, wholePath와 순서가 동일
@@ -19,5 +20,3 @@
     
 * ***public Template***
     * **ChangeDefaultRoute()** : 굳이 템플릿을 안 써도 되지만, 교수님이 배운 내용 쓰면 점수 더 주실까봐 쓰는 함수; data를 저장하는 경로에 default_path.txt라는 파일이 있는데, 이를 읽어내어 그 안에 저장된 값을 변경한다. path에서 탐색이 불가능하다면, false 반환.
-
-최종 수정 : 2020.11.18 23:55 김진휘
